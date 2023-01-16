@@ -1,6 +1,8 @@
-# gatling_java_starterkit
-Creating basic scratch gatling using java project for quick start
+## **Description**:
+Creating basic gatling project (with java) for quick start.
 
+## **To test simulations**
 
-command to run test: 
-mvn gatling:test
+All simulations: `mvn gatling:test`
+
+Specific simulation file: `mvn gatling:test -Dgatling.simulationClass=simulations.TestSimulation`
