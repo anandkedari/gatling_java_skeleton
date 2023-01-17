@@ -1,4 +1,4 @@
-package simulations;
+package simulations.starterkit;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
@@ -11,7 +11,7 @@ public class SimplePostSimulation extends BaseConfigurations {
     //scenario
     ScenarioBuilder createUsers = scenario("Create new user").exec(
               http("Create user").post("/api/users")
-                      .body(RawFileBody("jsonRequestBodies/createUser.json")).asJson()
+                      .body(RawFileBody("jsonRequestBodies/starterkit/createUser.json")).asJson()
                       .check(status().is(201))
     );
     //setup
