@@ -5,7 +5,7 @@ import static io.gatling.javaapi.http.HttpDsl.*;
 import io.gatling.javaapi.core.*;
 import io.gatling.javaapi.http.*;
 
-public class SimpleGetSimulation extends BaseConfigurations {
+public class No1_SimpleGet extends BaseConfigurations {
     //http configuration
     HttpProtocolBuilder httpConfig = initiateSimulation();
 

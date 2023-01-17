@@ -7,7 +7,7 @@ import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.http;
 import static io.gatling.javaapi.http.HttpDsl.status;
 
-public class ExtractDataFromResponseAndUse extends BaseConfigurations {
+public class No5_ExtractDataFromResponseAndUse extends BaseConfigurations {
     HttpProtocolBuilder httpConfig = initiateSimulation();
 
     ScenarioBuilder correlationScenario = scenario("Extract Value from Response and use it in next  api")

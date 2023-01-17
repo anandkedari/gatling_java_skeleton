@@ -7,7 +7,7 @@ import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.http;
 import static io.gatling.javaapi.http.HttpDsl.status;
 
-public class SimplePutAndDeleteSimulation extends BaseConfigurations {
+public class No4_SimplePutAndDelete extends BaseConfigurations {
 
     //http configuration
     HttpProtocolBuilder httpConfig = initiateSimulation() ;
